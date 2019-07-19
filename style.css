@@ -1,3 +1,20 @@
 nav {
   background-color: #6f7456;
 }
+
+.jumbotron-container {
+  background-image: url(https://remake.world/wp-content/uploads/2018/06/triarchy-banner.jpg);
+  background-size: cover;
+  height: 80vh;
+  color: #5c6148;
+  font: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 0%;
+}
+
+.shop-now {
+  background-color: #484538;
+  border-color: #484538;
+}
