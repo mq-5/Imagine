@@ -1,20 +1,62 @@
-.jumbotron-container {
-background-image: url(https://remake.world/wp-content/uploads/2018/06/triarchy-banner.jpg);
-background-size: cover;
-height: 80vh;
-color: #5C6148;
-font: bold;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-padding-top: 0%;
+* {
+  font-family: "Hind Siliguri", sans-serif;
 }
-    
-  .shop-now { 
-      background-color: #484538;
-      border-color: #484538;
 
-  }
+nav {
+  background-color: #234143;
+  color: white;
+  padding-top: 10px;
+}
+nav div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  color: white;
+}
+
+nav button {
+  color: white !important;
+}
+.quyen.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Satisfy;
+  font-size: 50px;
+}
+
+.nav-bot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bot button {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 20px;
+  color: #2f595b;
+}
+
+.jumbotron-container {
+  background-image: url(https://remake.world/wp-content/uploads/2018/06/triarchy-banner.jpg);
+  background-size: cover;
+  height: 80vh;
+  color: #5c6148;
+  font: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 0%;
+}
+
+.shop-now {
+  background-color: #484538;
+  border-color: #484538;
 
   #footer {
     background-color: #1B1A15;
