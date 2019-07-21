@@ -57,12 +57,13 @@ nav button {
 .shop-now {
   background-color: #484538;
   border-color: #484538;
+}
 
-  #footer {
-    background-color: #1B1A15;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    color: #D4EAC8;
+#footer {
+  background-color: #1B1A15;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: #D4EAC8;
 }
 
 #footer a {
@@ -72,7 +73,7 @@ nav button {
 #footer h5 {
     color: white;
     text-emphasis: strong;
-    font-size: 14px
+    font-size: 18px;
 }
 
 .footer-col {
@@ -80,11 +81,11 @@ nav button {
 }
 
 #footer li {
-    font-size: 11px
+    font-size: 14px
 }
 
 #footer p {
-    font-size: 12px
+    font-size: 16px
 }
 
 .row-social {
@@ -95,7 +96,6 @@ nav button {
 .row-links {
     padding: 20px;
 }
-
 
 .social {
     display: flex;
