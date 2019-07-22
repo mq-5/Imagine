@@ -17,55 +17,56 @@
 
     <nav>
         <div class="quyen container">
-            <button type="button" class="btn">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fa fa-user" aria-hidden="true"></i>
-          ACCOUNT
-          </button>
+              ACCOUNT
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sign Up</a>
+                <a class="dropdown-item" href="#">Log In</a>
+            </div>
             <div class="logo">
                 Imagine
             </div>
             <div>
-                <button type="button" class="btn">
+                <div class="input-group input-group-sm mb-3">
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+            <button type="button" class="btn">
+          
           <i class="fa fa-search" aria-hidden="true"></i>
-          SEARCH
-        </button> |
-                <button type="button" class="btn">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-          CART
-        </button>
+          </button> |
+                  <button type="button" class="btn">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </button>
             </div>
         </div>
     </nav>
     <div class="nav-bot">
         <!-- Example single danger button -->
         <div class="btn-group quyen container">
+            <button type="button" class="btn">
+                new arrivals <span class="badge badge-danger">New</span>
+            </button>
             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        new arrivals
-      </button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Separated link</a>
-            </div>
-            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      women
-    </button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Separated link</a>
-            </div>
+              women
+            </button>
+            <!-- <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Dresses</a>
+                <a class="dropdown-item" href="#">Shorts</a>
+                <a class="dropdown-item" href="#">Tops</a>
+                <a class="dropdown-item" href="#">Shoes</a>
+            </div> -->
+            
             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         men
       </button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Separated link</a>
-            </div>
+      <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Jackets</a>
+          <a class="dropdown-item" href="#">Pants</a>
+          <a class="dropdown-item" href="#">Shirts</a>
+          <a class="dropdown-item" href="#">Shoes</a>
+      </div>
             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           kids
         </button>
@@ -85,24 +86,12 @@
                 <a class="dropdown-item" href="#">Something else here</a>
                 <a class="dropdown-item" href="#">Separated link</a>
             </div>
-            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              sales <span class="badge badge-danger">New</span>
-            </button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Separated link</a>
-            </div>
+            
+          <button type="button" class="btn">
+            sales <span class="badge badge-warning">Hot</span>
+          </button>
         </div>
-        <!-- <ul>
-          <li><a href="">new arrivals</a> </li>
-        <li><a href="">women</a> </li>
-        <li><a href="">men</a> </li>
-        <li><a href="">kids</a> </li>
-        <li><a href="">collections</a> </li>
-        <li><a href="">sales</a> </li>
-      </ul> -->
+        
     </div>
     <div class="jumbotron jumbotron-container">
         <h1 class="display-4">IMAGINE</h1>
@@ -220,7 +209,7 @@
             <div class="row row-social">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
                     <ul class="list-unstyled list-inline social text-center row-links">
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook" style="font-size:28px;color:#56A3A6;";"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook" style="font-size:28px;color:#56A3A6;"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter" style="font-size:28px;color:#56A3A6;"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram" style="font-size:28px;color:#56A3A6;"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus" style="font-size:28px;color:#56A3A6;"></i></a></li>
