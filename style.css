@@ -17,7 +17,6 @@ nav div {
 
 nav button {
   color: white !important;
-  flex-wrap: nowrap;
 }
 .quyen.container {
   margin: 0 auto;
@@ -51,7 +50,7 @@ nav button {
   font: bold;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   padding-top: 0%;
 }
 
